@@ -4,9 +4,15 @@ body {
 	height: 100%;
 }
 
-h1 {
+h1,
+h2,
+h3 {
 	font-family: "Bebas Neue", cursive;
 	color: black;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
 }
 
 /* Flex Elements */
@@ -38,7 +44,11 @@ h1 {
 	margin-right: 20px;
 }
 
-/* Other */
+.brand-link {
+	margin-right: 10px;
+}
+
+/* Featured Project Section */
 
 .image-container {
 	position: relative;
@@ -78,4 +88,10 @@ img {
 .project-summary {
 	background-color: #f7f7f7;
 	text-align: left;
+}
+
+/* Contact Section */
+#contact {
+	text-align: center;
+	padding: 10px 0%;
 }
