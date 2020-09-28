@@ -6,12 +6,12 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
 	font-family: "Bebas Neue", cursive;
 	color: black;
 }
 
+h4,
 p {
 	font-family: "Roboto", sans-serif;
 }
@@ -93,15 +93,41 @@ img {
 
 /* Contact Section */
 #about {
-	/* background-color: #f7f7f7; */
+	background-color: #f7f7f7;
 	text-align: center;
+	padding: 1.5rem;
 }
 
 .about-image {
 	width: 300px;
 	height: 300px;
-	background-color: beige;
+	display: inline-block;
 }
-.about-info {
-	text-align: center;
+
+.about-image img {
+	border-radius: 100%;
+}
+
+.about-name {
+	padding-top: 1.5rem;
+}
+.about-description {
+	padding: 1.5rem 0;
+	display: inline-block;
+	width: 70%;
+}
+
+/* Skills Section */
+.skills-icons {
+	padding: 1.5rem;
+}
+.skill-icon {
+	width: 80px;
+	height: 80px;
+}
+
+.bootstrap-icon {
+	padding-top: 5px;
+	width: 65px;
+	height: 65px;
 }
