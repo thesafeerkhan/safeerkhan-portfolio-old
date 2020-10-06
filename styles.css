@@ -21,8 +21,8 @@ p {
 	text-align: center;
 }
 
-.col-md-6 {
-	margin: -10px 0 30px;
+.col-lg-4 {
+	margin: 0 0 30px;
 }
 
 /* NavBar */
@@ -50,6 +50,10 @@ p {
 }
 
 /* Featured Project Section */
+
+.featured-header {
+	margin-top: 10px;
+}
 
 .image-container {
 	position: relative;
@@ -80,8 +84,8 @@ img {
 
 .image-container .btn {
 	/* position: relative; */
-	padding: 0 5%;
-	margin: 0 5%;
+	padding: 2% 5%;
+	margin: 0 3%;
 	display: inline;
 	/* bottom: 50px; */
 }
